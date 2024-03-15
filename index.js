@@ -50,6 +50,7 @@ function show(Cars) {
 show(Cars);
 
 DeleteData = (id) => {
+  console.log(id);
   const newArr = [];
   for (let i = 0; i < Cars.length; i++) {
     if (Cars[i].id !== id) {
